@@ -10,6 +10,7 @@ int _strncmp(const char *s1, const char *s2, size_t n);
 * @s: The string to be searched.
 * @c: The character to be located.
 *
+*
 * Return: If c is found - a pointer to the first occurence.
 *         If c is not found - NULL.
 */
@@ -30,7 +31,6 @@ return (NULL);
 * _strspn - Gets the length of a prefix substring.
 * @s: The string to be searched.
 * @accept: The prefix to be measured.
-*
 * Return: The number of bytes in s which
 *         consist only of bytes from accept.
 */
