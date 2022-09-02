@@ -10,7 +10,6 @@ void free_list(list_t *head);
 * @head: A pointer to the head of the list_t list.
 * @name: The name of the new alias to be added.
 * @value: The value of the new alias to be added.
-*
 * Return: If an error occurs - NULL.
 *         Otherwise - a pointer to the new node.
 */
@@ -49,6 +48,7 @@ return (new_node);
 * add_node_end - Adds a node to the end of a list_t linked list.
 * @head: A pointer to the head of the list_t list.
 * @dir: The directory path for the new node to contain.
+*
 *
 * Return: If an error occurs - NULL.
 *         Otherwise - a pointer to the new node.
