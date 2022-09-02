@@ -9,6 +9,7 @@ int shellby_help(char **args, char __attribute__((__unused__)) **front);
  *               shellby builtin function.
  * @command: The command to match.
  *
+ *
  * Return: A function pointer to the corresponding builtin.
  */
 int (*get_builtin(char *command))(char **args, char **front)
@@ -42,6 +43,7 @@ int (*get_builtin(char *command))(char **args, char **front)
  * Return: If there are no arguments - -3.
  *         If the given exit value is invalid - 2.
  *         O/w - exits with the given status value.
+ *
  *
  * Description: Upon returning -3, the program exits back in the main function.
  */
