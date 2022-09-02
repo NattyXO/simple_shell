@@ -7,7 +7,6 @@ int create_error(char **args, int err);
 /**
  * num_len - Counts the digit length of a number.
  * @num: The number to measure.
- *
  * Return: The digit length.
  */
 int num_len(int num)
@@ -36,7 +35,6 @@ int num_len(int num)
 /**
  * _itoa - Converts an integer to a string.
  * @num: The integer.
- *
  * Return: The converted string.
  */
 char *_itoa(int num)
@@ -76,6 +74,7 @@ char *_itoa(int num)
  * create_error - Writes a custom error message to stderr.
  * @args: An array of arguments.
  * @err: The error value.
+ *
  *
  * Return: The error value.
  */
