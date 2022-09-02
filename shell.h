@@ -24,6 +24,7 @@ int hist;
 /**
  * struct list_s - A new struct type defining a linked list.
  * @dir: A directory path.
+ *
  * @next: A pointer to another struct list_s.
  */
 typedef struct list_s
@@ -45,6 +46,7 @@ typedef struct builtin_s
 
 /**
  * struct alias_s - A new struct defining aliases.
+ *
  * @name: The name of the alias.
  * @value: The value of the alias.
  * @next: A pointer to another struct alias_s.
