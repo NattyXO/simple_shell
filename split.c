@@ -9,7 +9,6 @@ char **_strtok(char *line, char *delim);
 *             of the first token contained within a string.
 * @str: The string to be searched.
 * @delim: The delimiter character.
-*
 * Return: The delimiter index marking the end of
 *         the intitial token pointed to be str.
 */
@@ -31,6 +30,7 @@ return (len);
 *                words contained within a string.
 * @str: The string to be searched.
 * @delim: The delimiter character.
+*
 *
 * Return: The number of words contained within str.
 */
