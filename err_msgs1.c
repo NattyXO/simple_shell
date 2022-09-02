@@ -9,6 +9,7 @@ char *error_2_syntax(char **args);
  * error_env - Creates an error message for shellby_env errors.
  * @args: An array of arguments passed to the command.
  *
+ *
  * Return: The error string.
  */
 char *error_env(char **args)
@@ -43,7 +44,6 @@ char *error_env(char **args)
 /**
  * error_1 - Creates an error message for shellby_alias errors.
  * @args: An array of arguments passed to the command.
- *
  * Return: The error string.
  */
 char *error_1(char **args)
