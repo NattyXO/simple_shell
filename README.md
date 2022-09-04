@@ -39,7 +39,7 @@ $`
 👤 **Natnael Bizuneh**
 
 - GitHub: https://github.com/NattyXO
-- LinkedIn: https://www.linkedin.com/in/natnael-bizuneh-a51444247/
+- LinkedIn: https://www.linkedin.com/in/natnael-bizuneh-zenebe/
 
 ## 🤝 Contributing
 
