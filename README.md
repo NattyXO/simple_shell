@@ -36,10 +36,10 @@ $`
 - GitHub: https://github.com/Sami692139
 - LinkedIn: https://www.linkedin.com/in/samuel-tassew-9580271a6/
 
-👤 **Natnael Bizuneh**
+👤 ****
 
-- GitHub: https://github.com/NattyXO
-- LinkedIn: https://www.linkedin.com/in/natnael-bizuneh-zenebe/
+- GitHub: 
+- LinkedIn: 
 
 ## 🤝 Contributing
 

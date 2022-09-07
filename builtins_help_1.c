@@ -73,7 +73,6 @@ void help_cd(void)
 /**
  * help_exit - Displays information on the shellby builtin command 'exit'.
  */
-
 void help_exit(void)
 {
 	char *msg = "exit: exit [STATUS]\n\tExits the shell.\n\n\tThe ";
@@ -88,9 +87,8 @@ void help_exit(void)
 }
 
 /**
- *  help_help - Displays information on the shellby builtin command 'help'.
+ * help_help - Displays information on the shellby builtin command 'help'.
  */
-
 void help_help(void)
 {
 	char *msg = "help: help\n\tSee all possible Shellby builtin commands.\n";

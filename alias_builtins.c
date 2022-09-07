@@ -115,7 +115,6 @@ void print_alias(alias_t *alias)
  * with their value.
  * @args: 2D pointer to the arguments.
  *
- *
  * Return: 2D pointer to the arguments.
  */
 char **replace_aliases(char **args)
@@ -151,3 +150,4 @@ char **replace_aliases(char **args)
 
 	return (args);
 }
+

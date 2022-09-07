@@ -10,6 +10,7 @@ int check_args(char **args);
 * get_args - Gets a command from standard input.
 * @line: A buffer to store the command.
 * @exe_ret: The return value of the last executed command.
+*
 * Return: If an error occurs - NULL.
 *         Otherwise - a pointer to the stored command.
 */
@@ -45,6 +46,7 @@ return (line);
 * @args: An array of arguments.
 * @front: A double pointer to the beginning of args.
 * @exe_ret: The return value of the parent process' last executed command.
+*
 * Return: The return value of the last executed command.
 */
 int call_args(char **args, char **front, int *exe_ret)

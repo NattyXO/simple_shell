@@ -8,9 +8,7 @@ void variable_replacement(char **args, int *exe_ret);
 /**
  * free_args - Frees up memory taken by args.
  * @args: A null-terminated double pointer containing commands/arguments.
- * @front: A double pointer to the beginning of
- args.
- *
+ * @front: A double pointer to the beginning of args.
  */
 void free_args(char **args, char **front)
 {
@@ -28,6 +26,7 @@ void free_args(char **args, char **front)
  *              information about the current process. The PID is the
  *              first word in the file. The function reads the PID into
  *              a buffer and replace the space at the end with a \0 byte.
+ *
  * Return: The current process ID or NULL on failure.
  */
 char *get_pid(void)
